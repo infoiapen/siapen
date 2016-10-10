@@ -8,7 +8,15 @@ ini_set("display_errors", 1);
 require "conexao.php";
 
 $nome = 'klaus';
-$email = 'klausinfo@hotmail.com';
+$email = 'klaus@iapen.ap.gov.br';
+$senha = password_hash('123456', PASSWORD_DEFAULT);
+
+$nome = 'klaus';
+$email = 'klaus@iapen.ap.gov.br';
+$senha = password_hash('123456', PASSWORD_DEFAULT);
+
+$nome = 'klaus';
+$email = 'klaus@iapen.ap.gov.br';
 $senha = password_hash('123456', PASSWORD_DEFAULT);
 
 
