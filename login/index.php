@@ -36,7 +36,39 @@ endif;
     </style>
 </head>
 <body>
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css">
+    <style type="text/css">
+        <style>
+            body{
+                background-color: #efefef;
+            }
+            .header{
+                width:100%;
+                padding:2rem 0;
+                margin-bottom: 2rem;
+                background-color: #337ab7;
+            }
+            .headline,.subheadline{
+                color:#fff;
+            }
+            .img-header{
+                width:100px;
+                margin-top: 3rem;
+            }
+            form{
+                background-color: #fff;
+                padding:1.5rem;
+            }
+            
+        </style>
+    </head>
+    <body>
+
+        <div class="header">
+            <h1 class="text-center headline">Instituto de Administração Penitenciária do Amapá</h1>
+            <h2 class="text-center subheadline">Sistema Administrativo Penitenciário - Siapen</h2>
+            <img src='siapen/image/logo_pricipal.png' class="img-responsive center-block img-header" alt="">
+        </div>
     <div class="container">    
         <div id="loginbox" class="mainbox col-md-7 col-md-offset-3 col-sm-8 col-sm-offset-2 margin-top-md">                    
             <div class="panel panel-primary" >
