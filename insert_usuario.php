@@ -11,15 +11,6 @@ $nome = 'klaus';
 $email = 'klaus@iapen.ap.gov.br';
 $senha = password_hash('123456', PASSWORD_DEFAULT);
 
-$nome = 'klaus';
-$email = 'klaus@iapen.ap.gov.br';
-$senha = password_hash('123456', PASSWORD_DEFAULT);
-
-$nome = 'klaus';
-$email = 'klaus@iapen.ap.gov.br';
-$senha = password_hash('123456', PASSWORD_DEFAULT);
-
-
 $conexao = conexao::getInstance();
 $sql = "INSERT INTO tab_usuario(nome, email, senha, status)VALUES('{$nome}', '{$email}', '{$senha}', 'A')";
 $stm = $conexao->prepare($sql);
