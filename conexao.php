@@ -9,11 +9,11 @@ ini_set("display_errors", 1);
  /*  
   * Constantes de parâmetros para configuração da conexão  
   */  
- define('HOST', '192.168.25.15');  
+ define('HOST', '192.168.25.6');  
  define('DBNAME', 'siapen');  
  define('CHARSET', 'utf8');  
  define('USER', 'root');  
- define('PASSWORD', 'kmnadminsite');  
+ define('PASSWORD', 'mysqldb');  
 
  class Conexao {  
 
