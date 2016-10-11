@@ -38,7 +38,7 @@
 	
 	<div class="col-lg-4 col-lg-offset-4">
 
-		<button class="btn btn-primary btn-notify">Show message</button>
+		<button class="btn btn-primary btn-notify">Cadastrar Usuário</button>
 	
 	</div><!--.container-->
 
